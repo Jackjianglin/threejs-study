@@ -23,6 +23,9 @@ module.exports = {
     resolve: {
       extensions: [ '.tsx', '.ts', '.js' ]
     },
+    externals: {
+      'three': 'THREE',
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
