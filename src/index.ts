@@ -1,30 +1,14 @@
-// /// <reference path = "../node_modules/three/src/Three.d.ts" /> 
-// const scene = new THREE.Scene();
-// const camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
 
-// const renderer = new THREE.WebGLRenderer()
+// import {run} from './study/1-simple-scene/index'
+// run()
 
-// renderer.setSize(window.innerWidth, window.innerHeight)
 
-// document.getElementById('app').appendChild(renderer.domElement)
+// import  './study/2-driwing-lines/index'
 
-// const geometry = new THREE.BoxGeometry(1, 1, 1);
-// const material = new THREE.MeshBasicMaterial({
-//     color: 0x00ff00 
-// })
-// const cube = new THREE.Mesh(geometry, material);
-// scene.add(cube);
-// camera.position.z = 5;
+// import  './study/3-update-thing/index'
 
-// function animate(){
-//     requestAnimationFrame(animate);
-//     cube.rotation.x += 0.01;
-//     cube.rotation.y += 0.01;
+// import  './study/4-dispose-object'
 
-//     renderer.render(scene, camera);
-// }
-// animate();
+// import  './study/5-post-processing'
 
-import {run} from './study/simple-scene/index'
-
-run()
+import './demo/1-particle-effect'
