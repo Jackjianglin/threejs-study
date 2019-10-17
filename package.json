@@ -9,6 +9,7 @@
     "s": "webpack-dev-server --open"
   },
   "dependencies": {
+    "stats.js": "^0.17.0",
     "three": "^0.109.0"
   },
   "devDependencies": {
