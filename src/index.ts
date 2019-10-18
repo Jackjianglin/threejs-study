@@ -11,4 +11,7 @@
 
 // import  './study/5-post-processing'
 
-import './demo/1-particle-effect'
+// import './demo/1-particle-effect'
+
+
+import './demo/2-rubiks-cube'
