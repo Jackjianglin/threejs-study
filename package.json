@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "stats.js": "^0.17.0",
-    "three": "^0.109.0",
+    "three": "^0.125.0",
     "tween": "^0.9.0"
   },
   "devDependencies": {
